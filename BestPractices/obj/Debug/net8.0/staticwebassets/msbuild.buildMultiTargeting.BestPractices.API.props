@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BestPractices.API.props" />
+</Project>
