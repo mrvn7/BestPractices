@@ -26,7 +26,7 @@ public class ClientController : ControllerBase
     }
 
     /// <summary>
-    /// Obtém uma lista de cidades pelo código UF.
+    /// Registra um cliente na base de dados.
     /// </summary>
     /// <param name="clientRequest"> Objeto com os dados do cliente. </param>
     /// <response code="200">Retorna que o cliente foi registrado com sucesso.</response>
