@@ -1,0 +1,12 @@
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\bin\Debug\net8.0\BestPractices.Tests.deps.json
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\bin\Debug\net8.0\BestPractices.Tests.dll
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\bin\Debug\net8.0\BestPractices.Tests.pdb
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.AssemblyInfoInputs.cache
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.AssemblyInfo.cs
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.csproj.CoreCompileInputs.cache
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.sourcelink.json
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.dll
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\refint\BestPractices.Tests.dll
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\BestPractices.Tests.pdb
+C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Tests\obj\Debug\net8.0\ref\BestPractices.Tests.dll

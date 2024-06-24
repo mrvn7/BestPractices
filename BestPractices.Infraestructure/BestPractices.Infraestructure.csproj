@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-</Project>
+  <ItemGroup>
+    <ProjectReference Include="..\BestPractices.Application\BestPractices.Application.csproj" />
+    <ProjectReference Include="..\BestPractices.Domain\BestPractices.Domain.csproj" />
+  </ItemGroup>
+
+ </Project>
