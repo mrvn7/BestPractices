@@ -7,9 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\" />
-    <Folder Include="Controller\" />
     <Folder Include="Application\" />
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="xunit" Version="2.8.1" />
+    <PackageReference Include="xunit.assert" Version="2.8.1" />
+    <PackageReference Include="xunit.categories" Version="2.0.8" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BestPractices.Application\BestPractices.Application.csproj" />
+    <ProjectReference Include="..\BestPractices.Domain\BestPractices.Domain.csproj" />
+    <ProjectReference Include="..\BestPractices.Infraestructure\BestPractices.Infraestructure.csproj" />
+    <ProjectReference Include="..\BestPractices\BestPractices.API.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,14 +4,93 @@
     "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj": {
+    "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj",
-        "projectName": "BestPractices.Tests",
-        "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
+        "projectName": "BestPractices.Application",
+        "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
         "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\obj\\",
+        "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj",
+        "projectName": "BestPractices.Domain",
+        "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj",
+        "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +136,279 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj",
+        "projectName": "BestPractices.Infraestructure",
+        "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj"
+              },
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj",
+        "projectName": "BestPractices.Tests",
+        "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\BestPractices.Tests.csproj",
+        "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj"
+              },
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj"
+              },
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj"
+              },
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices\\BestPractices.API.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices\\BestPractices.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.categories": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices\\BestPractices.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices\\BestPractices.API.csproj",
+        "projectName": "BestPractices.API",
+        "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices\\BestPractices.API.csproj",
+        "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj"
+              },
+              "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

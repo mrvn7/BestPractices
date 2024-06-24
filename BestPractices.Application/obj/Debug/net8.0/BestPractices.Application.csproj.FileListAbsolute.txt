@@ -2,9 +2,7 @@ C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\ne
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\net8.0\BestPractices.Application.dll
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\net8.0\BestPractices.Application.pdb
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\net8.0\BestPractices.Domain.dll
-C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\net8.0\BestPractices.Tests.dll
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\net8.0\BestPractices.Domain.pdb
-C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\bin\Debug\net8.0\BestPractices.Tests.pdb
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\obj\Debug\net8.0\BestPractices.Application.csproj.AssemblyReference.cache
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\obj\Debug\net8.0\BestPractices.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Application\obj\Debug\net8.0\BestPractices.Application.AssemblyInfoInputs.cache

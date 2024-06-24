@@ -1,9 +1,19 @@
-﻿namespace BestPractices.Application.Requests
+﻿namespace BestPractices.Application.Requests;
+
+public class ClientRequest
 {
-    public class ClientRequest
-    {
-        public string? Name { get; set; }
-        public string? Email { get; set; }
-        public int PhoneNumber { get; set; }
-    }
+    /// <summary>
+    /// Nome
+    /// </summary>
+    public string? Name { get; set; }
+
+    /// <summary>
+    /// Email
+    /// </summary>
+    public string? Email { get; set; }
+
+    /// <summary>
+    /// Numero de telefone
+    /// </summary>
+    public int PhoneNumber { get; set; }
 }
