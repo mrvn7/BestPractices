@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BestPractices.Application.DTOs;
 using BestPractices.Application.Interfaces;
 using BestPractices.Application.Requests;
 using BestPractices.Domain.Repositories;
@@ -28,11 +29,19 @@ public class ClientService : IClientService
         this.logger = logger;
     }
 
-    public async Task<bool> RegisterClient(ClientRequest clientRequest)
+    public async Task<ClientDTO> RegisterClient(ClientRequest clientRequest)
     {
         logger.LogInformation($"{nameof(ClientService)} - Sending data to domain layer");
 
         var client = mapper.Map<Client>(clientRequest);
-        return await clientRepository.RegisterClient(client);
+        var registeredCustomerId = await clientRepository.RegisterClient(client);
+
+        // Criando ClientDTO com o ID do cliente
+        var customerId = new ClientDTO
+        {
+            Id = registeredCustomerId
+        };
+
+        return customerId;
     }
 }

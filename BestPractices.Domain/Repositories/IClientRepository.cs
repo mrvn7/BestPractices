@@ -4,5 +4,5 @@ namespace BestPractices.Domain.Repositories;
 
 public interface IClientRepository
 {
-    Task<bool> RegisterClient(Client clientRequest);
+    Task<Guid> RegisterClient(Client clientRequest);
 }

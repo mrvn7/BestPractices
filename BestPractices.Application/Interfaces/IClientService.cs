@@ -1,9 +1,9 @@
-﻿using BestPractices.Application.Requests;
+﻿using BestPractices.Application.DTOs;
+using BestPractices.Application.Requests;
 
-namespace BestPractices.Application.Interfaces
+namespace BestPractices.Application.Interfaces;
+
+public interface IClientService
 {
-    public interface IClientService
-    {
-        Task<bool> RegisterClient(ClientRequest clientRequest);
-    }
+    Task<ClientDTO> RegisterClient(ClientRequest clientRequest);
 }

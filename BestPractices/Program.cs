@@ -1,3 +1,4 @@
+using BestPractices.API.Controllers;
 using BestPractices.Application.Interfaces;
 using BestPractices.Application.Mapper;
 using BestPractices.Application.Services;
@@ -32,6 +33,9 @@ builder.Services.AddSwaggerGen(
 // Configurar o DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Adicionando configuração de logger
+builder.Services.AddLogging();
 
 //Adicionando configuração de injeção de dependencia para as minhas Interfaces e classes que as herdam.
 builder.Services.AddScoped<IClientService, ClientService>();

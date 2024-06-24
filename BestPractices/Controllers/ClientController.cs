@@ -13,13 +13,13 @@ namespace BestPractices.API.Controllers;
 public class ClientController : ControllerBase
 {
     private readonly IClientService clientService;
-    private readonly ILogger logger;
+    private readonly ILogger<ClientController> logger;
 
     /// <summary>
     /// Construtor
     /// </summary>
     /// <param name="clientService"></param>
-    public ClientController(IClientService clientService, ILogger logger)
+    public ClientController(IClientService clientService, ILogger<ClientController> logger)
     {
         this.clientService = clientService;
         this.logger = logger;
