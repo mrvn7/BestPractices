@@ -26,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestPractices.Application", "BestPractices.Application\BestPractices.Application.csproj", "{1669D50B-0A86-4A8B-BC78-ECFBF65347B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPractices.Domain", "BestPractices.Domain\BestPractices.Domain.csproj", "{9CF4B095-10B0-4C50-90B0-A453AB2702E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestPractices.Domain", "BestPractices.Domain\BestPractices.Domain.csproj", "{9CF4B095-10B0-4C50-90B0-A453AB2702E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

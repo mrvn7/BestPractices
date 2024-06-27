@@ -3,6 +3,11 @@
 public class Client
 {
     /// <summary>
+    /// Id do cliente
+    /// </summary>
+    public Guid Id { get; set; }
+
+    /// <summary>
     /// Nome
     /// </summary>
     public string? Name { get; set; }
