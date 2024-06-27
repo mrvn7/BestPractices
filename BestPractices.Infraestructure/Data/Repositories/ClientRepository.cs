@@ -1,4 +1,5 @@
-﻿using BestPractices.Domain.Repositories;
+﻿using BestPractices.Application.DTOs;
+using BestPractices.Domain.Repositories;
 using BestPractices.Domain.ValueObjects;
 using BestPractices.Infraestructure.Data.DbContextConfig;
 using Microsoft.Extensions.Logging;
@@ -21,7 +22,7 @@ public class ClientRepository : IClientRepository
     /// <param name="logger"></param>
     public ClientRepository(ApplicationDbContext context, ILogger<ClientRepository> logger)
     {
-        this.context = context;       
+        this.context = context;
         this.logger = logger;
     }
 
@@ -35,29 +36,17 @@ public class ClientRepository : IClientRepository
 
             // O codigo abaixo seria para inserir em um banco de dados real
             // await context.Clients.AddAsync(clientRequest);
-            // var isSuccessRegister = await context.SaveChangesAsync();
-               
-            // logger.LogInformation("The customer has been registered successfully");
-            // return isSuccessRegister > 0;
+            // return context.Clients.Select(x => x.Id).FirstOrDefault();
 
             //------------------------------------------------------------------------------//
 
 
             //Irei simular um retorno de sucesso ao cadastrar o cliente no banco de dados
-
-            // Simulando logica de cadastro
-            var registeredCustomerId = Guid.NewGuid();
-
-            // Simulnado operação Asincrona
-            await Task.Delay(100);
-
-            return registeredCustomerId;
+            return Guid.NewGuid();
         }
         catch (Exception ex)
         {
             logger.LogError(ex, "Failed when trying to register the customer");
-
-            // Return an error state or null indicating failure
             throw;
         }
     }

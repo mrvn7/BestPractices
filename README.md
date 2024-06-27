@@ -17,16 +17,18 @@
     <article>
         <h2>Tecnologias Utilizadas</h2>
         <ul>
-            <li><strong>ASP.NET Core</strong>: Framework utilizado para desenvolver a API RESTful.</li>
-            <li><strong>Entity Framework Core</strong>: ORM para manipulação de dados e mapeamento objeto-relacional.</li>
-            <li><strong>Domain-Driven Design (DDD)</strong>: Abordagem de design utilizada para estruturar a aplicação de forma modular e coesa.</li>
-            <li><strong>Swagger</strong>: Ferramenta utilizada para documentação automática da API.</li>
-            <li><strong>xUnit e Moq</strong>: Ferramentas utilizadas para testes unitários e mock de dependências.</li>
-            <li><strong>AutoMapper</strong>: Biblioteca usada para mapeamento entre objetos.</li>
-            <li><strong>FluentValidation</strong>: Biblioteca para validação de modelos.</li>
+            🔥<strong>ASP.NET Core</strong>: Framework utilizado para desenvolver a API RESTful.<br>
+            🔥<strong>Entity Framework Core</strong>: ORM para manipulação de dados e mapeamento objeto-relacional.<br>
+            🔥<strong>Domain-Driven Design (DDD)</strong>: Abordagem de design utilizada para estruturar a aplicação de forma modular e coesa.<br>
+            🔥<strong>Swagger</strong>: Ferramenta utilizada para documentação automática da API.<br>
+            🔥<strong>xUnit e Moq</strong>: Ferramentas utilizadas para testes unitários e mock de dependências.<br>
+            🔥<strong>AutoMapper</strong>: Biblioteca usada para mapeamento entre objetos.<br>
+            🔥 <strong>Unit Of Work</strong>: Gerencia as transações e garante a consistência dos dados durante operações que envolvem múltiplas atualizações, inserções ou exclusões no banco de dados.<br>
         </ul>
     </article>
 </section>
+
+
 
 <br/>
 

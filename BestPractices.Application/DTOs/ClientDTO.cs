@@ -2,6 +2,9 @@
 {
     public class ClientDTO
     {
+        /// <summary>
+        /// ID do cliente
+        /// </summary>
         public Guid Id { get; set; }
     }
 }

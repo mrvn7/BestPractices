@@ -3,8 +3,10 @@ using BestPractices.Application.Interfaces;
 using BestPractices.Application.Mapper;
 using BestPractices.Application.Services;
 using BestPractices.Domain.Repositories;
+using BestPractices.Domain.Repositories.UnitOfWork;
 using BestPractices.Infraestructure.Data.DbContextConfig;
 using BestPractices.Infraestructure.Data.Repositories;
+using BestPractices.Infraestructure.Data.Repositories.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -40,6 +42,7 @@ builder.Services.AddLogging();
 //Adicionando configuração de injeção de dependencia para as minhas Interfaces e classes que as herdam.
 builder.Services.AddScoped<IClientService, ClientService>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Adicionando configuração do AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperSetup));
