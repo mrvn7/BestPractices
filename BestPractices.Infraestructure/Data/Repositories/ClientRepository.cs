@@ -1,5 +1,4 @@
-﻿using BestPractices.Application.DTOs;
-using BestPractices.Domain.Repositories;
+﻿using BestPractices.Domain.Repositories;
 using BestPractices.Domain.ValueObjects;
 using BestPractices.Infraestructure.Data.DbContextConfig;
 using Microsoft.Extensions.Logging;

@@ -196,6 +196,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             }
           },
           "imports": [
@@ -246,12 +250,6 @@
               "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj": {
                 "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj"
               },
-              "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
-                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj"
-              },
-              "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Infraestructure\\BestPractices.Infraestructure.csproj"
-              },
               "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices\\BestPractices.API.csproj": {
                 "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices\\BestPractices.API.csproj"
               }
@@ -273,25 +271,29 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
             "Moq": {
               "target": "Package",
               "version": "[4.20.70, )"
             },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "xunit": {
               "target": "Package",
-              "version": "[2.8.1, )"
+              "version": "[2.5.3, )"
             },
-            "xunit.assert": {
+            "xunit.runner.visualstudio": {
               "target": "Package",
-              "version": "[2.8.1, )"
-            },
-            "xunit.categories": {
-              "target": "Package",
-              "version": "[2.0.8, )"
-            },
-            "xunit.extensibility.core": {
-              "target": "Package",
-              "version": "[2.8.1, )"
+              "version": "[2.5.3, )"
             }
           },
           "imports": [
