@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
+      "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
       "projectName": "BestPractices.Application",
-      "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
+      "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
       "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\obj\\",
+      "outputPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -456,8 +456,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
-              "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj"
+            "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj": {
+              "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj"
             }
           }
         }
