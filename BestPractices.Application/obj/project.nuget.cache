@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M+lfXQ1DN6M=",
+  "dgSpecHash": "DuSau4bRFgE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
+  "projectFilePath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Application\\BestPractices.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrvn7\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\mrvn7\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

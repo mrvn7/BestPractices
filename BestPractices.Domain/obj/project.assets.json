@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj",
       "projectName": "BestPractices.Domain",
-      "projectPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj",
+      "projectPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\BestPractices.Domain.csproj",
       "packagesPath": "C:\\Users\\mrvn7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrvn7\\source\\repos\\BestPractices\\BestPractices.Domain\\obj\\",
+      "outputPath": "C:\\Users\\mrvn7\\source\\repos\\.Net\\BestPractices\\BestPractices.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mrvn7\\AppData\\Roaming\\NuGet\\NuGet.Config",

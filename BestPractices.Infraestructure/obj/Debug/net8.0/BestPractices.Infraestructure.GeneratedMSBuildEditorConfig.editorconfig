@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BestPractices.Infraestructure
-build_property.ProjectDir = C:\Users\mrvn7\source\repos\BestPractices\BestPractices.Infraestructure\
+build_property.ProjectDir = C:\Users\mrvn7\source\repos\.Net\BestPractices\BestPractices.Infraestructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
